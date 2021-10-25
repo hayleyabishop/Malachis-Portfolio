@@ -137,42 +137,6 @@ You can add a marker by setting the Timeline ruler to the location you want and 
 
 ##### Hotkeys
 
-| Function | Hotkey |
-| :---      | :---: |
-|Add Marker| ```Ctrl+M```|
-|Add Track| ```Ctrl+Shift+T```|
-|Add To Timeline| ```Ctrl+W```|
-|Center on Playhead|```Ctrl+Up``` |
-|Choose Profile|```Ctrl+P```|
-|Copy|```Ctrl+C```|
-|Delete Item|```Delete```|
-|Delete Item (Alternative)|```Backspace```|
-|Details View|```Ctrl+D```|
-|Export Video|```Ctrl+E```|
-|Fast Forward|```L```|
-|Fullscreen|```F11```|
-|Import Files|```Ctrl+F```|
-|Insert Keyframe|```Ctrl+Shift+E```|
-|Jump To End|```Ctrl+End```|
-|Jump To Start|```Ctrl+Home```|
-|New Project|```Ctrl+N```|
-|Next Frame|```Right```|
-|Next Marker|```Ctrl+Right```|
-|Open Project|```Ctrl+O```|
-|Paste|```Ctrl+V```|
-|Play/Pause|```Spacebar```|
-|Previous Frame|```Left```|
-|Previous Marker|```Ctrl+Left```|
-|Quit|```Ctrl+Q```|
-|Redo|```Ctrl+Y```|
-|Rewind|```J```|
-|Save Project|```Ctrl+S```|
-|Toggle Razor|```R```|
-|Undo|```Ctrl+Z```|
-|Zoom In|```=```|
-|Zoom Out|```-```|
-
-
 | Function | Hotkey | Function | Hotkey | Function | Hotkey |
 | :---      | :---: | :---      | :---:      | :---      | :---:      |
 |Add Marker| ```Ctrl+M```| Fast Forward | ```L``` | Paste | ```Ctrl+V``` |
@@ -185,6 +149,7 @@ You can add a marker by setting the Timeline ruler to the location you want and 
 |Delete Item (Alternative)|```Backspace```| Next Frame | ```Right``` | Save Project | ```Ctrl+S``` |
 |Details View|```Ctrl+D```| Next Marker | ```Ctrl+Right``` | Toggle Razor | ```R``` |
 |Export Video|```Ctrl+E```| Open Project | ```Ctrl+O``` | Undo | ```Ctrl+Z``` |
+
 ##### Exporting
 
 To export your completed project, click the red circle at the top of the application.
