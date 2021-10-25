@@ -7,7 +7,7 @@
     - [Preview Files](#project-files)
     - [Timeline](#timeline)
     - [Video Preview](#video-preview)
- - [Tools](tools)
+ - [Tools](#tools)
      - [Transitions](#transitions)
     - [Effects](#effects)
     - [Emojis](#emojis)
