@@ -81,7 +81,7 @@ You can add transitional effects to files on your Timeline by dragging and dropp
 
 ![Transitions page](https://i.imgur.com/7fGvcIx.png)
 
-Here , you can browse the different transition effects offered by OpenShot. Once you choose a transition, drag and drop it onto the files on the Timeline you want to affect. You can adjust the length of the transition by grabbing its edges and moving them to fit your purposes. Note that when overlapping two files in the Timeline, a fade transition will automatically be applied. You can remove it by clicking on the fade transition and pressing the backspace key.
+Here, you can browse the different transition effects offered by OpenShot. Once you choose a transition, drag and drop it onto the files on the Timeline you want to affect. You can adjust the length of the transition by grabbing its edges and moving them to fit your purposes. Note that when overlapping two files in the Timeline, a fade transition will automatically be applied. You can remove it by clicking on the fade transition and pressing the backspace key.
 
 ##### Effects 
 
