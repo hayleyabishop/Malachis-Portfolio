@@ -3,7 +3,7 @@
 ### Contents
 
  - [Install](#install)
- - [Interface](interface)
+ - [Interface](#interface)
     - [Preview Files](#project-files)
     - [Timeline](#timeline)
     - [Video Preview](#video-preview)
