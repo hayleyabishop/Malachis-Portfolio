@@ -21,7 +21,7 @@
 
 To install OpenShot navigate to https://www.openshot.org/, and click the download button.
 
-<img align="left" src="https://i.imgur.com/VTIkA4H.jpg">
+![Download button](https://i.imgur.com/VTIkA4H.jpg)
 
 Next, you can continue with the default Windows 64-bit Installer. If you are not on a 64-bit compatible Windows system there are options for other operating systems below the default download.
 
