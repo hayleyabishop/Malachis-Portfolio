@@ -33,13 +33,13 @@ The Project Files section acts as the main storage for all the files in your pro
 
 ![Project Files](https://i.imgur.com/lv6yS65.png)
 
-You can use the Project Files section to upload all of the files to be used in the project. Do this by dragging and dropping files directly into the box or by pressing the large green plus at the top of the application. Alternatively, you can right click inside the box and select import files (``` Ctrl-f```) to browse and select files graphically. 
+You can use the Project Files section to upload all of the files to be used in the project. Do this by dragging and dropping files directly into the box or by pressing the large green plus at the top of the application. Alternatively, you can right click inside the box and select import files (``` Ctrl+F```) to browse and select files graphically. 
 
 Use the tab at the top of this section to filter files in the project by video, audio, image, or all.
 
 ![File filters](https://i.imgur.com/l07I2rh.png)
 
-Other functionalities in the Project Files section are covered in the [Tools]() section below.
+Other functionalities in the Project Files section are covered in the [Tools](#tools) section below.
 
 ##### Timeline 
 
@@ -47,7 +47,7 @@ You can edit all of the files in your project in the Timeline. A red box outline
 
 ![Timeline](https://i.imgur.com/o9Volem.png)
 
-You can populate the Timeline by dragging files from the Project Files section and dropping them onto a track in the Timeline. By default, OpenShot will start every project with 5 tracks. You can add more by clicking the green plus under the word Timeline in the top left of the section. You can adjust your view on the tracks by operating the three sliders highlighted in the image below. Note that Tracks work as hierarchical layers. That means that a track with a higher numerical value will overlay tracks with lower numerical values if the content plays at the same time.
+You can populate the Timeline by dragging files from the Project Files section and dropping them onto a track in the Timeline. By default, OpenShot will start every project with 5 tracks. You can add more by clicking the green plus under the word "Timeline" in the top left of the section. You can adjust your view on the tracks by operating the three sliders highlighted in the image below. Note that Tracks work as hierarchical layers. That means that a track with a higher numerical value will overlay tracks with lower numerical values.
 
 ![Timeline zoomed](https://i.imgur.com/P2FaoJM.png)
 
@@ -59,7 +59,7 @@ Right clicking a track gives you a few options as well.
 
 Add Track Above adds a track above the track that was right clicked on. Add Track Below adds a track below the track that was right clicked on. Rename Track allows you to name a track whatever you want. Lock Track prevents any further changes to the track that was right clicked on. Remove Track deletes the track from the Timeline.
 
-Other functionalities of the Timeline section are covered in the [Tools]() section below.
+Other functionalities of the Timeline section are covered in the [Tools](#tools) section below.
 
 ##### Video Preview 
 
@@ -85,7 +85,7 @@ Here, you can browse the different transition effects offered by OpenShot. Once 
 
 ##### Effects 
 
-You can add and adjust visual effects to your project by dragging and dropping effects onto your files in the Timeline. To browse and select effects, navigate to the Effects tab on the Project Files section. 
+You can add visual effects to your project by dragging and dropping effects onto your files in the Timeline. To browse and select effects, navigate to the Effects tab on the Project Files section. 
 
 ![Effects page](https://i.imgur.com/74Cy2Th.png)
 
