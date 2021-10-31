@@ -9,6 +9,17 @@
 
 Pastrami is a multifunctional JavaScript Discord bot with abilities including
 
+# PASTRAMI BOT
+
+[![GitHub issues](https://img.shields.io/github/issues/jacobc18/js-discord-bot)](https://github.com/jacobc18/js-discord-bot/issues)
+
+![hello there](https://media.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif)
+
+
+
+
+Pastrami is a multifunctional JavaScript Discord bot with abilities including
+
 - TTS greetings for voice channel user join
 - Audio streaming via YouTube links 
 - Audio streaming via local files
@@ -43,19 +54,11 @@ In the repo folder create a file called ``` .env ``` with the contents
 DISCORD_TOKEN=your-discord-bot-token-goes-here
 CLIENT_ID=your-discord-client-id-goes-here
 YOUTUBE_API_KEY=your-youtube-api-key-goes-here
-IMGUR_CLIENT_ID=your-imgur-client-id-goes-here
-SPOTIFY_CLIENT_ID=your-spotify-client-id-goes-here
-SPOTIFY_SECRET=your-spotify-secret-goes-here
 ```
 
 To get a Discord bot token and Discord client ID see [How to Make a Discord Bot in the Developer Portal](https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal).
 
 To get a YouTube API key follow the steps outlined [here](https://developers.google.com/youtube/v3/getting-started).
-
-To get an Imgur Client ID, you simply need an Imgur account. Register your bot (application) [here](https://api.imgur.com/oauth2/addclient) and fill out the form.
-**Application Name** and **Email** are required fields. Under **Authorzation Type**, select *OAuth 2 authorization **without** a callback URL*. Imgur will then supply you with a fresh Client ID and Client Secret, but you only really need the Client ID. If you forget it or misplace it, your can access it again in you [Imgur Account Settings](https://imgur.com/account/settings/apps).
-
-To get a Spotify Client ID and Spotify Secret you must first connect Spotify Developer to your Spotify account [here](https://developer.spotify.com/dashboard/login). Don't worry, this works with free accounts as well. Once the connection is made, create a new application. On the application dashboard you will find your Spotify Client ID and Spotify secret.
 
 After following the steps outlined in [How to Make a Discord Bot in the Developer Portal](https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal), you need to invite the bot to the Discord guilds you would like it to operate in. To do this you will need to navigate to your application in the [Discord Developer Portal](https://discord.com/developers/applications) and then to the ``` OAuth2``` tab. 
 
@@ -112,37 +115,24 @@ This will also connect the bot to any guilds you have linked it to via [Discord'
 
 ### Greetings
 
-- User Specific Greetings 
+To customize greetings navigate to ``` /data/greetings.json```. 
 
-To customize user specific greetings navigate to ``` /data/users.json```. 
+- Default Greetings
 
 ```json
-"xxxx": {
+"default": {
         "greetings": [
             "welcome *NAME*",
-            "this is a custom greeting for *NAME*",
-            "Malachi is cool"
+            "say hi to *NAME*"
         ]
     },
 ```
 
-The \*NAME\* string is used to reference the server nickname of the user who has joined the voice channel. You need to replace ``` xxxx``` with that user's unique identifier.
+In ``` greetings.json```  the \*NAME\* variable is used to reference the server nickname of the user who has joined the voice channel. 
 
-- Default Greetings 
+<!--
 
-To customize default greetings for guilds that do not have guild specific default greetings set, navigate to ``` /utils/createGuildData.js``` and edit the `defaultGuildGreetings` array:
-
-```js
-const defaultGuildGreetings = [
-    'welcome *NAME*'
-];
-```
-
-- Guild Specific Default Greetings 
-
-You can set default greetings for a specific guild. This requires the unique guild identifier ( ``` xxxx``` ) to function. 
-
-Navigate to ``` /config/guild.json```:
+- Guild Default Greetings 
 
 ```json
 "xxxx": {
@@ -152,6 +142,23 @@ Navigate to ``` /config/guild.json```:
         ]
     },
 ```
+
+This is pretty much the same as the default greetings, but it requires the unique guild identifier ( ``` xxxx``` ) to function. 
+
+-->
+
+- User Specific Greetings
+
+```json
+"xxxx": {
+        "greetings": [
+            "Malachi is cool",
+            "Everyone likes Malachi"
+        ]
+    },
+```
+
+Again, this is pretty similar to the previous greeting formats. However, for user specific greetings you need to replace ``` xxxx``` with that user's unique identifier. 
 
 *To find the unique identifiers for guilds and users check [this](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) out.*
 
