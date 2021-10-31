@@ -9,17 +9,6 @@
 
 Pastrami is a multifunctional JavaScript Discord bot with abilities including
 
-# PASTRAMI BOT
-
-[![GitHub issues](https://img.shields.io/github/issues/jacobc18/js-discord-bot)](https://github.com/jacobc18/js-discord-bot/issues)
-
-![hello there](https://media.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif)
-
-
-
-
-Pastrami is a multifunctional JavaScript Discord bot with abilities including
-
 - TTS greetings for voice channel user join
 - Audio streaming via YouTube links 
 - Audio streaming via local files
