@@ -21,6 +21,8 @@ Requires [NodeJS v16.x.x](https://nodejs.org/en/) or higher and the latest versi
 
 ### Windows
 
+In package directory run
+
 ```
 $ windows_setup.bat
 ```
